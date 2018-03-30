@@ -1,0 +1,106 @@
+
+/* Style for navbar font*/
+a {
+	background-color: transparent !important;
+}
+
+.navbar .nav > li > a, .navbar .nav > li {
+text-shadow: none;
+font-family: 'Lato';
+font-size: 20px;
+color: white;
+padding-top: 14px;
+background-color: none;
+}
+
+/* Animated line under menu items */
+
+.topnav-link {
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.125em;
+    transition: border-bottom-color 50ms linear 0s;
+}
+.topnav-link:hover {
+    border-bottom-color: red;
+		background-color: transparent;
+}
+
+/* Dropdown text styling */
+
+.dropdown:hover .dropdown-menu { 
+		display: block;
+		margin-top: 0;
+		background-color: transparent;
+ }
+
+.dropdown .dropdown-menu>li>a {
+	color: #fff
+}
+
+.dropdown .dropdown-menu>li>a:hover {
+	color: indianred;
+}
+
+
+
+/* Hero banner */
+
+.inner-container>img{
+	position: relative;
+}
+
+.banner-text1 {
+	z-index: 100;
+  position: absolute;
+  color: white;
+	font-family: 'Lato';
+  font-size: 24px;
+  font-weight: bold;
+  left: 200px;
+  top: 440px;
+}
+
+
+.banner-text2 {
+	z-index: 100;
+  position: absolute;
+  color: white;
+	font-family: 'Lato';
+  font-size: 24px;
+  font-weight: bold;
+  left: 200px;
+  top: 480px;
+}
+
+.banner-text3 {
+	z-index: 100;
+  position: absolute;
+  color: white;
+	font-family: 'Lato';
+  font-size: 24px;
+  font-weight: bold;
+  left: 200px;
+  top: 520px;
+}
+
+.catch-phrase {
+	z-index: 100;
+  position: absolute;
+  color: white;
+	font-family: 'Lato';
+  font-size: 40px;
+  font-weight: bold;
+  left: 200px;
+  top: 560px;
+}
+
+.banner-text4 {
+	z-index: 100;
+  position: absolute;
+  color: white;
+	font-weight: bold;
+  font-size: 24px;
+  left: 20px;
+  top: 600px;
+}
+
